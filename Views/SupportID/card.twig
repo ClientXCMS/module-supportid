@@ -1,0 +1,7 @@
+
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <h4>{{ trans('supportid.title') }}</h4>
+        <p>{{ trans('supportid.text', {'%code%': current_user().supportId, '%app_name%': config('app.name')}) }}</p>
+    </div>
+</div>
